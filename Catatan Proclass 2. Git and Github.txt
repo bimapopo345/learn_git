@@ -124,3 +124,81 @@ f. semisal diubah, dan penegen masuk ke repositorynya
 git add .
 git commit -m "merubah title"
 git log
+
+
+g. install ekstensi di vscode
+
+> git graph
+
+> restart vscode
+
+gunanya : saat deteksi repository > ada dibawahnya git graph bisa ditekan.
+
+h. mundur ke versi sebelumnya
+
+>> baca id commit massage cryptography sebelumnya (8 digit pertama)
+
+> git checkout 70d3d75a
+
+
+
+
+
+
+--- github ---
+
+1. access github repository
+
+> Click New create repository > di navbar githubnya.
+
+2. nama repository
+
+>> biasanya sama dengan nama project.
+
+3. pilih jenis
+
+> bisa public atau private
+
+public : semua orang bisa liat
+private : orang yg kita tambahin sja/kolaborator
+
+.gitignore >> apa saja yg ga kita mau masukin
+
+4. Create repository
+
+
+5. add remote repository url to local git.
+
+di terminal : git remote add origin
+
+>> ini github local dan github jadi terhubung
+
+6. cara biar masuk ke github nya
+
+> pake git push origin main
+
+
+
+
+-- cara pake codingan orang lain di github ke komputer kita ---
+
+1. buat folder baru
+
+2. clone repository
+
+git clone url_github
+
+3. cek remote kita
+
+> git remote -v
+
+
+Cara hapus repository github :
+
+>> di setting > paling bawah scrool > hapus repo
+
+
+
+
+
+
