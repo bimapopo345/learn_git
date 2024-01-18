@@ -101,7 +101,7 @@ git add . > semua file (buat,ubah,dll), mengalami perubahan maka akan masuk ke d
 
 awalnya tulisan U > akan berubah jadi "A" / added > file siap dicatat di repository.
 
-d. mencatat
+d. mencatat di file repository
 
 git commit -m "initiate project"
 
@@ -110,3 +110,17 @@ git commit -m "initiate project"
 
 -m = massage 
 - : flagging artinya
+
+e. melihat catatannya versinya / historynya :
+
+> git log
+> git status
+
+di generate ke cryptography tertentu.
+
+f. semisal diubah, dan penegen masuk ke repositorynya
+
+> 
+git add .
+git commit -m "merubah title"
+git log
