@@ -198,7 +198,46 @@ Cara hapus repository github :
 >> di setting > paling bawah scrool > hapus repo
 
 
+cara mau ngambil dari github
+>>> git pull origin main
+
+cara mau masukin
+
+> git push origin main
 
 
 
 
+---  perform brancing Merging and Rebasing ---
+
+1. Brach / cabang
+
+> supaya dia masih ada dijalur yg benar, semisal bagian QA tester dan user berbeda, jadi bisa ditester dulu gitu..
+
+
+a. show branch
+> melihat branch didalam repository / dilocal
+git branch
+
+b. buat branch baru
+
+> git branch feature/search
+
+kalau di git branch, mereka sejajar , tidak berbeda filenya.
+
+
+b. berpindah branch
+
+> git checkout feature/search
+
+feature/search : yg kita buat tadi branchnya
+
+
+c.
+kita ubah file kita
+git add.
+git commit -m "fitur filter"
+
+semisal kita : git checkout main
+
+akan mundu lagi kita
