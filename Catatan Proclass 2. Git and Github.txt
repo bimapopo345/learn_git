@@ -1,0 +1,112 @@
+---- 2. Git dan Github ---
+
+Version control : sebuah sistem yg merekam perubahan file atau sesuatu dan kita bisa merecall versi sebelumnya.
+
+
+Git >> version control system yg sifat nya terdistribusi, dan mengtrack setiap perubahan yg terjadi. bisanya digunakan untuk koordinasi pekerjaan programmer.
+
+fitur git :
+
+1. Distributed development : supaya org lain bisa lanjutin pekerjaan kita.
+
+2. Compatibility : digunakan untuk semua sistem operasi dan mendukung protokol, ex : https, dll
+
+3. efisien dalam menghandle projek skala besar.
+
+4. Sudah melakukan cryptographic pada historynya,
+
+kesimpoulan : yg berada di belakangnya
+
+ex : gitlab, gitbucket
+
+
+
+
+--- Github ---
+
+>> berikan layanan hosting services menggunakan version control git.
+
+
+1. Install and configure git
+
+Installing git : 
+
+a. windows 
+
+>> github,com/git-for-windows/git/releases
+
+https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/Git-2.39.0-32-bit.exe
+
+> git-scm.com
+
+install yg standalone
+
+setelah install
+
+2. CEk verifikasi git dengan CMD : git --version
+
+3. Join github : github.com/signup
+
+email dan username cukup penting di github.
+
+
+4. Git config atau hubungi git local kita dengan github (server)
+
+git di local kita
+github server orang
+
+run di terminal : 
+
+bisa di vs code atau terminal git : 
+
+git config --global user.name "bimapopo345"
+> bimapopo345 = username di github
+
+git config --global user.email "bimapopo345@gmail.com"
+>> set email github yg kita tadi
+
+Cek : if git configured 
+
+> git config --list
+
+.. pencet "q" maka keluar list
+
+Muncul lah list username dan email kita , maka berhasil
+
+
+
+5. Initiate Git (local)
+
+a. Create new folder 
+di terminal : mkdir learnGit &&cd learnGit
+
+b. initiate git
+
+didalam folder learngit : git init 
+
+>> ini jadi file folder biasa, jadi foler berbasis git
+
+berhasil : initialized empty git repository in .... > maka folder sudah jadi repository git
+
+atau di vscode , jadi berubah warna hijau dari warna putih, dan ada keterangan "U" / untrack
+
+untrack : ada file baru, tapi belum tercatat di file repository
+
+kalau di folder, dihapus .git nya maka jadi folder biasa lagi. (versionnya hilang).
+
+
+c. Memasukkan File nya supaya terbaca dalam repository
+
+git add . > semua file (buat,ubah,dll), mengalami perubahan maka akan masuk ke dalam repository
+
+awalnya tulisan U > akan berubah jadi "A" / added > file siap dicatat di repository.
+
+d. mencatat
+
+git commit -m "initiate project"
+
+> menggambarkan perubahan versi di repositorynya.
+> semisal fitur searching, ya ganti jadi itu di commitnya.
+
+-m = massage 
+- : flagging artinya
